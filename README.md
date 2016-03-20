@@ -2,7 +2,7 @@
 
 C++ routine writing the temperature received from 433 Mhz (with RPI_Oregan) in a mysql table
 
-#Before first use, pleas do :
+#Before first use, please do :
 
 mysql -u root -p
 (write your password)
