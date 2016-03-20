@@ -1,6 +1,6 @@
 all: temp
 
-temp: RCSwitch.o RcOok.o Sensor.o temp.o
+temp: ../RPI_Oregan/RCSwitch.o ../RPI_Oregan/RcOok.o ../RPI_Oregan/Sensor.o ../RPI_Oregan/temp.o
 	$(CXX) $(CXXFLAGS) $(LDFLAGS) $+ -o $@ -lwiringPi -lmysqlclient
 
 clean:
