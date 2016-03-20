@@ -4,9 +4,9 @@
 #include <time.h>
 #include <iostream>
 #include "/usr/include/mysql/mysql.h"
-#include "RCSwitch.h"
-#include "RcOok.h"
-#include "Sensor.h"
+#include "../RPI_Oregan/RCSwitch.h"
+#include "../RPI_Oregan/RcOok.h"
+#include "../RPI_Oregan/Sensor.h"
 int loggingok;	
 
 int main(int argc, char *argv[])
