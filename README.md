@@ -1,8 +1,9 @@
 # temp2table
 
-C++ routine writing the temperature received from 433 Mhz (with RPI_Oregan) in a mysql table
+C++ routine for Raspberry Pi writing the temperature received from 433 Mhz (with RPI_Oregan) in a mysql table
 
-#Before first use, please do :
+#Before first use, please create the mysql table :
+sudo apt-get install libmysqlclient-dev 
 
 mysql -u root -p
 (write your password)
