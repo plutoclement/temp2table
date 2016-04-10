@@ -76,7 +76,7 @@ printf("Mysql initialization failed");
 //return 1;
 }
 
-connect=mysql_real_connect(connect,"localhost","root","12850216","temperature_table",0,NULL,0);
+connect=mysql_real_connect(connect,"localhost","root","XXXXXXXXXXXX","temperature_table",0,NULL,0);
 
 if (connect)
 {
